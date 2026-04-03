@@ -10,7 +10,7 @@ load_dotenv()
 app = FastMCP("mysql-manager")
 
 # Get credentials from .env file
-DB_PASSWORD = os.getenv("MYSQL_PASSWORD", "8281")
+DB_PASSWORD = os.getenv("MYSQL_PASSWORD", "8***")
 DB_USER = os.getenv("MYSQL_USER", "root")
 DB_HOST = os.getenv("MYSQL_HOST", "localhost")
 
